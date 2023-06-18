@@ -1,221 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-77850754-2"
+		></script>
+		<script async src="js/ga.js"></script>
+		<noscript>
+			<iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-W3LZ29H"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			>
+			</iframe>
+		</noscript>
 
-<head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77850754-2"></script>
-    <script async src="js/ga.js"></script>
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3LZ29H"
-                height="0" width="0" style="display:none;visibility:hidden">
-        </iframe>
-    </noscript>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link
+			rel="shortcut icon"
+			href="images/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+		<meta
+			name="keywords"
+			content="portfolio kushal, portfolio kushal, my own portfolio kushal, my website kushal, kushal mishra"
+		/>
+		<meta name="author" content="Kushal Mishra" />
+		<meta name="image" property="og:image" content="images/preview.png" />
+		<meta
+			name="description"
+			property="og:description"
+			content="I am a Software Development Engineer at Amazon building highly customized and seamless payment experience for digital businesses and delight our customers all around the world"
+		/>
+		<meta name="title" property="og:title" content="Kushal Mishra" />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon" />
-    <meta name="keywords" content="portfolio kushal, portfolio kushal, my own portfolio kushal, my website kushal, kushal mishra">
-    <meta name="author" content="Kushal Mishra">
-    <meta name="image" property="og:image" content="images/preview.png">
-    <meta name="description" property="og:description" content="I am a Software Development Engineer at Amazon building highly customized and seamless payment experience for digital businesses and delight our customers all around the world">
-    <meta name="title" property="og:title" content="Kushal Mishra">
+		<title lang="en" class="en">Kushal Mishra</title>
 
-    <title lang="en" class="en">Kushal Mishra</title>
+		<link
+			href="css/bootstrap.min.css"
+			rel="stylesheet"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="css/simple-sidebar.css"
+			rel="stylesheet"
+			crossorigin="anonymous"
+		/>
+		<link href="css/style.css" rel="stylesheet" crossorigin="anonymous" />
+		<link href="css/bootstrap.rtl.min.css" rel="stylesheet" />
+		<link href="css/bootstrap-grid.min.css" rel="stylesheet" />
+		<link href="css/bootstrap-reboot.min.css" rel="stylesheet" />
+		<link href="css/bootstrap-utilities.css" rel="stylesheet" />
+	</head>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <link href="css/simple-sidebar.css" rel="stylesheet" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet" crossorigin="anonymous">
-    <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
-    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
-    <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
-    <link href="css/bootstrap-utilities.css" rel="stylesheet">
-</head>
-
-<body class="bg">
-    <div class="loader-wrapper">
-        <div class="loader"></div>
-    </div>
-    <div class="d-flex toggled" id="wrapper">
-        <div class="bg-dark border-right" id="sidebar-wrapper">
-            <br>
-            <a href="#" class="sidebar-close">
-                <div class="sidebar-heading fa fa-times"></div>
-            </a>
-            <div class="list-group" id="menu">
-                <div class="en">
-                    <div class="nav">
-                        <a lang="en" onclick="event.preventDefault()" href="#home" class="home-nav page-scroll list-group-item list-group-item-action bg-dark active">HOME</a>
-                        <a lang="en" onclick="event.preventDefault()" href="#about" class="about-nav page-scroll list-group-item list-group-item-action bg-dark">ABOUT</a>
-                        <a lang="en" onclick="event.preventDefault()" href="#skills" class="skills-nav page-scroll list-group-item list-group-item-action bg-dark">SKILLS</a>
-                        <a lang="en" onclick="event.preventDefault()" href="#blogs" class="blogs-nav page-scroll list-group-item list-group-item-action bg-dark">BLOGS</a>
-                        <a lang="en" onclick="event.preventDefault()" href="#contact" class="contact-nav page-scroll list-group-item list-group-item-action bg-dark">CONTACT</a>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <p lang="en" class="en"><span class="fa fa-copyright"></span> &nbsp;Kushal Mishra 2023</p>
-            </div>
-        </div>
-        <div id="page-content-wrapper">
-            <nav class="navbar navbar-dark fixed-top">
-                <div class="container-fluid">
-                    <div class="navbar-header page-scroll">
-                        <button id="menu-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="menu fa fa-bars"></span>
-                    </button>
-                    </div>
-                </div>
-            </nav>
-            <div class="scroll-container">
-                <section id="home">
-                    <div class="container-fluid bg">
-                        <div class="home">
-                            <div id="intro">
-                                <div class="en">
-                                    <h1 lang="en"><span class="primary">Hello</span><span class="comma primary">,</span></h1>
-                                    <h1 lang="en">I'm <span class="secondary">Kushal</span><span class="comma secondary">,</span></h1>
-                                    <h1 lang="en">Software <span class="primary dev">Dev</span> Engineer.
-                                        <h1>
-                                            <h2 lang="en">Software Developer / Melomaniac</h2>
-                                </div>
-                                <div class="social">
-                                    <a href="https://www.linkedin.com/in/kushal-mishra" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Linkedin"><span
-                                        class="fa fa-linkedin-square"></span></a>
-                                    <a href="https://twitter.com/1mishrakushal" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Twitter"><span
-                                        class="fa fa-twitter"></span></a>
-                                    <a href="https://mishrakushal.medium.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Medium"><span
-                                        class="fa fa-medium"></span></a>
-                                    <a href="https://github.com/mishrakushal" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Github"><span
-                                        class="fa fa-github-alt"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="next-page">
-                                <p class="down-arrow-text">SCROLL DOWN</p>
-                                <div class="down-arrow-icon"><span class="fa fa-chevron-down"></span></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="about">
-                    <span class="title en" lang="en">about me</span>
-                    <h2 class="subtitle en" lang="en">Experience</h2>
-                    <div class="row experience">
-                        <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 amazon-sde2 box">
-                            <h4 lang="en">Software Development Engineer Intern</h4>
-                            <h6 lang="en">DSLR Technologies</h6>
+	<body class="bg">
+		<div class="loader-wrapper">
+			<div class="loader"></div>
+		</div>
+		<div class="d-flex toggled" id="wrapper">
+			<div class="bg-dark border-right" id="sidebar-wrapper">
+				<br />
+				<a href="#" class="sidebar-close">
+					<div class="sidebar-heading fa fa-times"></div>
+				</a>
+				<div class="list-group" id="menu">
+					<div class="en">
+						<div class="nav">
+							<a
+								lang="en"
+								onclick="event.preventDefault()"
+								href="#home"
+								class="home-nav page-scroll list-group-item list-group-item-action bg-dark active"
+								>HOME</a
+							>
+							<a
+								lang="en"
+								onclick="event.preventDefault()"
+								href="#about"
+								class="about-nav page-scroll list-group-item list-group-item-action bg-dark"
+								>ABOUT</a
+							>
+							<a
+								lang="en"
+								onclick="event.preventDefault()"
+								href="#skills"
+								class="skills-nav page-scroll list-group-item list-group-item-action bg-dark"
+								>SKILLS</a
+							>
+							<a
+								lang="en"
+								onclick="event.preventDefault()"
+								href="#blogs"
+								class="blogs-nav page-scroll list-group-item list-group-item-action bg-dark"
+								>BLOGS</a
+							>
+							<a
+								lang="en"
+								onclick="event.preventDefault()"
+								href="#contact"
+								class="contact-nav page-scroll list-group-item list-group-item-action bg-dark"
+								>CONTACT</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<p lang="en" class="en">
+						<span class="fa fa-copyright"></span> &nbsp;
+						<a href="https://www.linkedin.com/in/ganeshkumarm1">
+							Ganesh Kumar </a
+						>2022
+					</p>
+				</div>
+			</div>
+			<div id="page-content-wrapper">
+				<nav class="navbar navbar-dark fixed-top">
+					<div class="container-fluid">
+						<div class="navbar-header page-scroll">
+							<button
+								id="menu-toggle"
+								class="navbar-toggler"
+								type="button"
+								data-toggle="collapse"
+								data-target="#navbarSupportedContent"
+								aria-controls="navbarSupportedContent"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="menu fa fa-bars"></span>
+							</button>
+						</div>
+					</div>
+				</nav>
+				<div class="scroll-container">
+					<section id="home">
+						<div class="container-fluid bg">
+							<div class="home">
+								<div id="intro">
+									<div class="en">
+										<h1 lang="en">
+											<span class="primary">Hello</span
+											><span class="comma primary">&excl;</span>
+										</h1>
+										<h1 lang="en">
+											I'm <span class="secondary">Kushal</span
+											><span class="comma secondary">&comma;</span>
+										</h1>
+										<h1 lang="en">
+											Software <span class="primary dev">Dev</span> Engineer.
+										</h1>
+										<h2 lang="en">Software Developer / Melomaniac</h2>
+									</div>
+									<div class="social">
+										<a
+											href="https://www.linkedin.com/in/kushal-mishra"
+											target="_blank"
+											data-bs-toggle="tooltip"
+											data-bs-placement="bottom"
+											title=""
+											data-bs-original-title="Linkedin"
+											><span class="fa fa-linkedin-square"></span
+										></a>
+										<a
+											href="https://twitter.com/1mishrakushal"
+											target="_blank"
+											data-bs-toggle="tooltip"
+											data-bs-placement="bottom"
+											title=""
+											data-bs-original-title="Twitter"
+											><span class="fa fa-twitter"></span
+										></a>
+										<a
+											href="https://mishrakushal.medium.com/"
+											target="_blank"
+											data-bs-toggle="tooltip"
+											data-bs-placement="bottom"
+											title=""
+											data-bs-original-title="Medium"
+											><span class="fa fa-medium"></span
+										></a>
+										<a
+											href="https://github.com/mishrakushal"
+											target="_blank"
+											data-bs-toggle="tooltip"
+											data-bs-placement="bottom"
+											title=""
+											data-bs-original-title="Github"
+											><span class="fa fa-github-alt"></span
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="next-page">
+									<p class="down-arrow-text">SCROLL DOWN</p>
+									<div class="down-arrow-icon">
+										<span class="fa fa-chevron-down"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="about">
+						<span class="title en" lang="en">about me</span>
+						<h2 class="subtitle en" lang="en">Experience</h2>
+						<div class="row experience">
+							<div
+								class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 amazon-sde2 box"
+							>
+								<h4 lang="en">Software Development Engineer Intern</h4>
+								<h6 lang="en">DSLR Technologies</h6>
+								<div class="blob green inline-block"></div>
+								<p class="duration inline-block" lang="en">
+									June, 2022 - July, 2022
+								</p>
+								<p class="description" lang="en">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+									eaque sequi voluptas voluptates sint autem quia, placeat
+									excepturi aspernatur ipsum animi recusandae magni, nihil
+									dolore. Praesentium in aliquam harum vel?
+								</p>
+							</div>
+							<div
+								class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 scaler-writer box no-border"
+							>
+								<h4 lang="en">Web Development Intern</h4>
+								<h6 lang="en">Swecha AP</h6>
+								<div class="blob green inline-block"></div>
+								<p class="duration inline-block" lang="en">
+									May, 2022 - July, 2022
+								</p>
+								<p class="description" lang="en">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Aliquam dolorem ut nihil quae eaque unde libero repellendus
+									quas, aut dolor est debitis, illum aliquid perspiciatis
+									deleniti quia. Magnam, sapiente recusandae.
+								</p>
+							</div>
+							<div
+								class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 scaler-writer box no-border"
+							>
+								<h4 lang="en">Freelancer</h4>
+								<h6 lang="en">Remote</h6>
+								<div class="blob green inline-block"></div>
+								<p class="duration inline-block" lang="en">
+									May, 2022 - January, 2023
+								</p>
+								<p class="description" lang="en">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Aliquam dolorem ut nihil quae eaque unde libero repellendus
+									quas, aut dolor est debitis, illum aliquid perspiciatis
+									deleniti quia. Magnam, sapiente recusandae.
+								</p>
+							</div>
+							<!-- <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 scaler-writer box no-border">
+                            <h4 lang="en">Web Development Intern</h4>
+                            <h6 lang="en">Swecha AP</h6>
                             <div class="blob green inline-block"></div>
-                            <p class="duration inline-block" lang="en">June, 2022 - July, 2022</p>
+                            <p class="duration inline-block" lang="en">May, 2022 - July, 2022</p>
                             <p class="description" lang="en">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A eaque sequi voluptas voluptates sint autem quia, placeat excepturi aspernatur ipsum animi recusandae magni, nihil dolore. Praesentium in aliquam harum vel?
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam dolorem ut nihil quae eaque unde libero repellendus quas, aut dolor est debitis, illum aliquid perspiciatis deleniti quia. Magnam, sapiente recusandae.
                             </p>
-                        </div>
-                        <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 scaler-writer box no-border">
-                            <h4 lang="en">Technical Content Writer</h4>
-                            <h6 lang="en">Scaler</h6>
-                            <div class="blob green inline-block"></div>
-                            <p class="duration inline-block" lang="en">Nov, 2021 - Current</p>
+                        </div> -->
+						</div>
+						<h2 class="subtitle en" lang="en">Education</h2>
+						<div class="row education">
+							<div
+								class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 college box"
+							>
+								<h4 lang="en">B.E., Computer Science</h4>
+								<h6 lang="en">
+									Birla Institute of Technology & Science, Pilani
+								</h6>
+								<p class="duration" lang="en">2020 - 2024 (expected)</p>
+								<p class="description" lang="en">
+									•&nbsp;UI/UX Lead for Google Dev Students Club.<br />•&nbsp;Won
+									4 silver medals across football, marathon (3 km), and ultimate
+									frisbee.<br />•&nbsp;Worked on the
+									<a href="https://seds-bphc.vercel.app/cubesat/index.html">
+										<u>CubeSat programme</u>
+									</a>
+									of SEDS BPHC.
+								</p>
+							</div>
+							<!-- <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 scaler-writer box no-border">
+                            <h4 lang="en">Junior College (Science)</h4>
+                            <h6 lang="en">Suryadatta Jr&period; College</h6>
+                            <p class="duration" lang="en">2018 - 2020</p>
                             <p class="description" lang="en">
-                                Writing articles on technical and programming concepts.
+                                •&nbsp;Scored 3.6 GPA.<br>•&nbsp;Won the <b>Best All-round Student</b> prize for the 2019-2020 academic year.<br>•&nbsp;verb something something something.
                             </p>
-                        </div>
-                        <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 optum-se box no-border">
-                            <h4 lang="en">Software Engineer</h4>
-                            <h6 lang="en">Optum</h6>
-                            <p class="duration" lang="en">Sep, 2019 - Apr, 2021</p>
-                            <p class="description" lang="en">
-                                Hands on experience in designing and developing products to benchmark surgery procedures, manage and report surgeon's preference cards.
-                            </p>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="experience row">
-                        <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 optum-ase box">
-                            <h4>Associate Software Engineer</h4>
-                            <h6>Optum</h6>
-                            <p class="duration">Jul, 2017 - Aug, 2019</p>
-                            <p class="description">
-                                Hands on experience in designing and developing products to evaluate surgeon's performance, reduce procedure costs and effectively utilize operating rooms.
-                            </p>
-                        </div>
-                        <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 abco-intern box no-border">
-                            <h4 lang="en">Software Development Engineering Intern</h4>
-                            <h6 lang="en">ABCO India</h6>
-                            <p class="duration" lang="en">Dec, 2016 - Jan, 2017</p>
-                            <p class="description" lang="en">
-                                Hands on experience in designing and developing products to manage and maintain healthcare master specification data.
-                            </p>
-                        </div>
-                    </div>
-                    <h2 class="subtitle en" lang="en">Education</h2>
-                    <div class="row education">
-                        <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 college box">
-                            <h4 lang="en">B.Tech, Information Technology</h4>
-                            <h6 lang="en">Coimbatore Institute of Technology</h6>
-                            <p class="duration" lang="en">2013 - 2017</p>
-                            <p class="description" lang="en">
-                                Scored 8.3 CGPA.<br> Co-Founder of the Programming Club.<br> Excelled in problem solving and programming.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section id="skills">
-                    <span class="title en" lang="en">my skills</span>
-                    <h2 class="subtitle en" lang="en">Skills</h2>
-                    <div class="row skill java">
-                        <div class="row">
-                            <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8" lang="en">
-                                Java
-                                <span>80%</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
-                                <div class="bar"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row skill sql">
-                        <div class="row">
-                            <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8" lang="en">
-                                SQL
-                                <span>80%</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
-                                <div class="bar"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row skill html-css">
-                        <div class="row">
-                            <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8" lang="en">
-                                HTML & CSS
-                                <span>80%</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
-                                <div class="bar"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row skill python">
-                        <div class="row">
-                            <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8" lang="en">
-                                Python
-                                <span>70%</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
-                                <div class="bar"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row skill javascript">
+                        </div> -->
+						</div>
+					</section>
+					<section id="skills">
+						<span class="title en" lang="en">my skills</span>
+						<h2 class="subtitle en" lang="en">Skills</h2>
+						<div class="row skill java">
+							<div class="row">
+								<div
+									class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8"
+									lang="en"
+								>
+									C&sol;C&plus;&plus;
+									<span>80%</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+									<div class="bar"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row skill sql">
+							<div class="row">
+								<div
+									class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8"
+									lang="en"
+								>
+									SQL
+									<span>80%</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+									<div class="bar"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row skill html-css">
+							<div class="row">
+								<div
+									class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8"
+									lang="en"
+								>
+									HTML & CSS
+									<span>80%</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+									<div class="bar"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row skill python">
+							<div class="row">
+								<div
+									class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8"
+									lang="en"
+								>
+									Python
+									<span>70%</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+									<div class="bar"></div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="row skill javascript">
                         <div class="row">
                             <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8" lang="en">
                                 Javascript
@@ -227,35 +375,25 @@
                                 <div class="bar"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row skill system-design">
-                        <div class="row">
-                            <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8" lang="en">
-                                System Design
-                                <span>80%</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
-                                <div class="bar"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row skill content-writing">
-                        <div class="row">
-                            <div class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8" lang="en">
-                                Content Writing
-                                <span>70%</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
-                                <div class="bar"></div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="blogs">
+                    </div> -->
+						<div class="row skill system-design">
+							<div class="row">
+								<div
+									class="en col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8"
+									lang="en"
+								>
+									System Design (Working Knowledge)
+									<span>30%</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+									<div class="bar"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- <section id="blogs">
                     <span class="title en" lang="en">my blogs</span>
                     <h2 class="subtitle en" lang="en">Medium Blogs</h2>
                     <br>
@@ -267,34 +405,61 @@
                             </a>
                         </div>
                     </div>
-                    <!-- <br>
-                    <h2 class="subtitle en" lang="en">Scaler Blogs</h2>
-                    <br><br>
-                    <div class="row scaler-blogs">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-2 my-auto view-more">
-                        </div>
-                    </div> -->
-                </section>
-                <section id="contact">
-                    <span class="title en" lang="en">contact</span>
-                    <h2 class="subtitle en" lang="en">Contact</h2><br>
-                    <form method="post" action="https://formspree.io/f/xzbqnaqz" class="en form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
-                        <input id="name" class="form-control en" name="Name" type="text" placeholder="Name" lang="en" required/>
-                        <input id="email" class="form-control en" name="Email" type="email" placeholder="Email" lang="en" required/>
-                        <textarea id="message" row="10" name="Message" class="form-control en" placeholder="Message" lang="en" required></textarea>
-                        <input type="hidden" name="_next" value="https://mishrakushal.github.io/self/#contact" />
-                        <input type="hidden" name="_subject" value="New Message" />
-                        <button id="submit" class="btn en" type="submit" lang="en">Submit</button>
-                    </form>
-                </section>
-            </div>
-        </div>
-    </div>
-    <script src="js/jquery.min.js" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="js/jquery.easing.min.js" crossorigin="anonymous"></script>
-    <script src="js/fontawesome5.min.js" crossorigin="anonymous"></script>
-    <script src="js/script.js" crossorigin="anonymous"></script>
-</body>
-
+                </section> -->
+					<section id="contact">
+						<span class="title en" lang="en">contact</span>
+						<h2 class="subtitle en" lang="en">Contact</h2>
+						<br />
+						<form
+							method="post"
+							action="https://formspree.io/f/xzbqnaqz"
+							class="en form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8"
+						>
+							<input
+								id="name"
+								class="form-control en"
+								name="Name"
+								type="text"
+								placeholder="Name"
+								lang="en"
+								required
+							/>
+							<input
+								id="email"
+								class="form-control en"
+								name="Email"
+								type="email"
+								placeholder="Email"
+								lang="en"
+								required
+							/>
+							<textarea
+								id="message"
+								row="10"
+								name="Message"
+								class="form-control en"
+								placeholder="Message"
+								lang="en"
+								required
+							></textarea>
+							<input
+								type="hidden"
+								name="_next"
+								value="https://mishrakushal.github.io/self/#contact"
+							/>
+							<input type="hidden" name="_subject" value="New Message" />
+							<button id="submit" class="btn en" type="submit" lang="en">
+								Submit
+							</button>
+						</form>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+		<script src="js/jquery.easing.min.js" crossorigin="anonymous"></script>
+		<script src="js/fontawesome5.min.js" crossorigin="anonymous"></script>
+		<script src="js/script.js" crossorigin="anonymous"></script>
+	</body>
 </html>

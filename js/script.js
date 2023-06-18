@@ -86,11 +86,11 @@ const getArticleDOM = function(article) {
 
 const getArticles = function() {
     const data = {
-        rss: "https://medium.com/feed/@ganeshkumarm1"
+        rss: "https://medium.com/@mishrakushal"
     };
 
     $.get(
-        "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40ganeshkumarm1",
+        "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40mishrakushal",
         data,
         function(response) {
             mediumArticles = response.items;
