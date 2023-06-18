@@ -342,11 +342,13 @@ span.title {
 }
 
 #skills .title {
-    top: 90% !important;
+    /* top: 87% !important; */
+    top: 100% !important;
 }
 
 #contact .title {
-    top: 65% !important;
+    /* top: 65% !important; */
+    top: 80% !important;
 }
 
 #blogs .title {
