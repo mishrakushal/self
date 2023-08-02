@@ -578,19 +578,25 @@ button {
 }
 
 .skill.java .bar {
-    background: linear-gradient(to right, var(--secondary) 80%, #222222 20%);
+    background: linear-gradient(to right, var(--secondary) 70%, #222222 20%);
 }
 
+/* C++ */
+.skill.cpp.java .bar {
+    background: linear-gradient(to right, var(--secondary) 75%, #222222 20%);
+}
+
+
 .skill.python .bar {
-    background: linear-gradient(to right, var(--secondary) 70%, #222222 30%);
+    background: linear-gradient(to right, var(--secondary) 65%, #222222 30%);
 }
 
 .skill.html-css .bar {
-    background: linear-gradient(to right, var(--secondary) 80%, #222222 20%);
+    background: linear-gradient(to right, var(--secondary) 75%, #222222 20%);
 }
 
 .skill.sql .bar {
-    background: linear-gradient(to right, var(--secondary) 80%, #222222 20%);
+    background: linear-gradient(to right, var(--secondary) 65%, #222222 20%);
 }
 
 .skill.javascript .bar {
@@ -598,11 +604,11 @@ button {
 }
 
 .skill.system-design .bar {
-    background: linear-gradient(to right, var(--secondary) 30%, #222222 0%);
+    background: linear-gradient(to right, var(--secondary) 20%, #222222 0%);
 }
 
 .skill.content-writing .bar {
-    background: linear-gradient(to right, var(--secondary) 70%, #222222 30%);
+    background: linear-gradient(to right, var(--secondary) 55%, #222222 30%);
 }
 
 #blogs img {
@@ -674,14 +680,16 @@ form {
 .down-arrow-text,
 .down-arrow-icon {
     text-align: center;
-    opacity: 0.2;
+    /* opacity: 0.2; */
+    opacity: 0.8;
 }
 
 .down-arrow-text {
     letter-spacing: 1.1px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0 !important;
-    font-size: 11px;
+    /* font-size: 11px; */
+    font-size: 14px;
 }
 
 .down-arrow-icon {
@@ -729,6 +737,11 @@ form {
 }
 
 @media (max-width: 468px) {
+    /* SHOWS ARROW ON SMALLER SCREENS */
+    .next-page {
+        display: block;
+    }
+
     #dropdown-value {
         display: none;
     }
@@ -746,6 +759,11 @@ form {
 }
 
 @media (max-width: 380px) {
+    /* SHOWS ARROW ON SMALLER SCREENS */
+    .next-page {
+        display: block;
+    }
+
     #dropdown-value {
         display: none;
     }
@@ -766,6 +784,10 @@ form {
 }
 
 @media (max-width: 768px) {
+    .next-page {
+        display: block;
+    }
+
     #dropdown-value {
         display: none;
     }
@@ -864,5 +886,37 @@ form {
     .education,
     form {
         margin-left: 0px !important;
+    }
+}
+
+/* UPDATED ARROW CODE */
+@media (max-width: 1200px) {
+    .next-page {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .down-arrow-text,
+    .down-arrow-icon {
+        text-align: center;
+        /* opacity: 0.2; */
+        opacity: 0.8;
+    }
+
+    .down-arrow-text {
+        letter-spacing: 1.1px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 0 !important;
+        /* font-size: 11px; */
+        font-size: 18px;
+    }
+
+    .down-arrow-icon {
+        font-size: 1.8rem;
+    }
+
+    .next-page {
+        display: block;
     }
 }
